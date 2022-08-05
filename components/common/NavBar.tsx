@@ -68,7 +68,7 @@ export const NavBar = memo<Props>(({ routes }) => {
                 ) : null}
               </div>
             ))}
-          <ThemeToggler />
+          
           </nav>
           <ThemeToggler />
         </div>

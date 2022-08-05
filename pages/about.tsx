@@ -5,7 +5,7 @@ import { SEO } from '../components/common/SEO'
 
 const About: NextPage = () => {
   const title = 'About'
-  const description = 'Want to know more about Jurre de Ruiter? Get to know me!'
+  const description = 'Want to know more about Durga Prasad? Get to know me!'
 
   return (
   <Layout>

@@ -10,7 +10,7 @@ const HomeHero: React.FC = () => {
         <div className="h-full w-full">
           
           {/* // Hi component starts here */}
-          <div className="z-10 mt-4 pl-0 ml-20 text-3xl font-light leading-[1.3]">
+          <div className="z-10 mt-4 pl-2 ml-10 text-3xl font-light leading-[1.3] xs:ml-1 mdlg:ml-4">
           <p className="whitespace-nowrap">
             <span className="font-medium">Hi!</span>, I&rsquo;m
           </p>
@@ -19,13 +19,13 @@ const HomeHero: React.FC = () => {
           {/* // Hi component ends here */}
           <svg width="100%" height="100%" viewBox="0 0 35 7.1">
             <text
-              x={1.4}
+              x={0}
               y={7.0}
-              fontSize="8"
+              fontSize="9"
               fontWeight="900"
-              letterSpacing="-0.07em"
+              letterSpacing="-0.14em"
               fontFamily="Freigeist Wide"
-              className="fill-jurreyellow"
+              className="fill-dpyellow"
             >
               DURGA
             </text>
@@ -67,12 +67,12 @@ const HomeHero: React.FC = () => {
             </svg>
           </svg>
         </div>
-        <div className="z-10 mt-4 border-l-[0.4rem] border-l-jurreyellow pl-4 text-3xl font-light leading-[1.3]">
-          <p className="whitespace-nowrap">
-            <span className="font-medium">Hi!</span>, I&rsquo;m Durga Prasad!
+        <div className="z-10 mt-4 border-l-[0.4rem] border-l-dpyellow pl-4 text-3xl font-light leading-[1.3] xs:pl-2">
+          <p className="whitespace-nowrap xs:pl-0">
+            <span className="font-medium xs:pl-0">Hi!</span>, I&rsquo;m Durga Prasad!
           </p>
           <div className="flex items-center justify-center gap-2">
-            <p className="whitespace-nowrap">I code stuff. 🤓</p>
+            <p className="whitespace-nowrap xs:text-[1.5rem]">I code stuff. 🤓</p>
             <div
               className="flex w-fit cursor-pointer items-center justify-start gap-2 border-b-[3px] border-b-black pr-1 dark:border-b-white"
               onClick={() =>
@@ -122,7 +122,7 @@ const HomeHero: React.FC = () => {
           quality={100}
           draggable={false}
           priority={true}
-          alt="3D character of Jurre de Ruiter waving."
+          alt="3D character of a hand waving."
         />
       </motion.div>
       <div className="absolute -left-10 right-0 -bottom-[61%] h-full w-[200%] dark:hidden lg:w-[110%]">

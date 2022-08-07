@@ -25,7 +25,7 @@ const HomeProjects: React.FC = () => {
           here is a curated list of things i have worked on
         </h2>
         <Link href="/projects" passHref>
-          <a className="mb-16 mt-6 flex items-center justify-center gap-3 rounded-2xl bg-jurreyellow py-3 px-7 dark:bg-jurredarkyellow">
+          <a className="mb-16 mt-6 flex items-center justify-center gap-3 rounded-2xl bg-dpyellow py-3 px-7 dark:bg-dpdarkyellow">
             <p className="text-white">Have a look at the projects</p>
             <MaskSvg
               className="h-[0.65rem] w-[0.65rem]"
@@ -34,8 +34,8 @@ const HomeProjects: React.FC = () => {
             />
           </a>
         </Link>
-        <div className="h-[60rem] w-full px-6 sm:px-12 mdlg:px-16 lg:px-32 xl:px-40 2xl:px-48">
-          <div className="h-full w-full rounded-[5rem] bg-jurreoffwhite dark:bg-jurredarklight">
+        <div className="h-[60rem] w-full px-6 sm:px-12 mdlg:px-16 lg:px-32 xl:px-40 2xl:px-48 ">
+          <div className="h-full w-full rounded-[5rem] bg-dpoffwhite dark:bg-dpdarklight xs:pb-20">
             <span className="mb-16 mt-2 flex items-center justify-center gap-3 rounded-2xl">
             <h1>
               Tech stack i use goes here

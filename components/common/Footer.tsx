@@ -8,9 +8,9 @@ import ThemeToggler from './theme-toggler/ThemeToggler'
 
 const Footer: React.FC = () => {
   return (
-    <footer className="flex items-center justify-center bg-jurreoffwhite transition-colors duration-300 dark:bg-jurredarklight">
+    <footer className="flex items-center justify-center bg-dpoffwhite transition-colors duration-300 dark:bg-dpblack xs:px-2">
       <div className="flex w-full max-w-[1680px] flex-col items-center justify-between py-14 px-8 font-euclid md:flex-row mdlg:px-16 lg:px-32 xl:px-40 2xl:px-48">
-        <div className="mb-6 flex flex-row items-center justify-center gap-4 md:mb-0 md:gap-12">
+        <div className="mb-6 flex flex-row items-center justify-center gap-4 md:mb-0 md:gap-12 xs:inline-block mdlg:flex">
           <motion.div
             whileHover={basicHoverTapScale.hover}
             whileTap={basicHoverTapScale.tap}
@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             <Logo color="white" />
           </motion.div>
           <p
-            className="mt-1 whitespace-nowrap text-center text-[0.9rem] text-gray-400"
+            className="mt-1 whitespace-nowrap text-center text-[0.9rem] text-gray-400 xs:mt-5 mdlg:mt-3"
             style={{ lineHeight: '1.25rem' }}
           >
             &#169; {new Date().getFullYear()} All Rights Reserved
@@ -48,12 +48,12 @@ const Footer: React.FC = () => {
                 className="mt-[0.1rem] h-4 w-4 dark:!bg-white"
                 url="/img/icons/mail.svg"
               />
-              <p className="text-black dark:text-white">contact@dprasad.me</p>
+              <p className="text-black dark:text-dpyellow">contact@dprasad.me</p>
             </div>
           </AnimatedLink>
           {/* <div className="flex items-center justify-center gap-5">
             <a
-              href="https://www.instagram.com/jurre.053/"
+              href="https://www.instagram.com/profilename/"
               rel="noreferrer"
               target="_blank"
               className="h-5 transition-all hover:mb-1"
@@ -64,7 +64,7 @@ const Footer: React.FC = () => {
               />
             </a>
             <a
-              href="https://twitter.com/JurredeRuiter"
+              href="https://twitter.com/profilename"
               rel="noreferrer"
               target="_blank"
               className="h-5 transition-all hover:mb-1"
@@ -75,7 +75,7 @@ const Footer: React.FC = () => {
               />
             </a>
             <a
-              href="https://github.com/jurredr"
+              href="https://github.com/profilename"
               rel="noreferrer"
               target="_blank"
               className="h-5 transition-all hover:mb-1"
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
               />
             </a>
             <a
-              href="https://www.linkedin.com/in/jurre-de-ruiter-2503901b4/"
+              href="https://www.linkedin.com/in/profilename/"
               rel="noreferrer"
               target="_blank"
               className="h-5 transition-all hover:mb-1"

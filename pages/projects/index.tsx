@@ -44,7 +44,7 @@ const Projects: NextPage<Props> = ({ projects }) => {
       />
       <PageHero title={title}>
         {getSinglePluralText('The ', 'All ', projects.length)}
-        <span className="font-medium text-jurreyellow">
+        <span className="font-medium text-dpyellow">
           {projects.length}
         </span>{' '}
         {getSinglePluralText('project', 'projects', projects.length)} I have

@@ -17,7 +17,7 @@ export const NavBar = memo<Props>(({ routes }) => {
 
   return (
     <div className="flex items-center justify-center">
-      <div className="flex w-full max-w-[1680px] items-center justify-between gap-2 py-8 px-6 mdlg:px-16 lg:px-32 xl:px-40 2xl:px-48">
+      <div className="flex w-full max-w-[1680px] items-center justify-between gap-2 py-8 px-20 mdlg:px-16 lg:px-32 xl:px-40 2xl:px-48 sm:flex xs:inline-block">
         <Link href="/">
           <a className="sm:hidden">
             <MaskSvg
@@ -38,7 +38,7 @@ export const NavBar = memo<Props>(({ routes }) => {
         </Link>
         <Link href="/">
           <motion.a
-            className="hidden cursor-pointer dark:sm:block"
+            className="hidden cursor-pointer dark:sm:flex xs:inline-block xs:ml-3 xs:mb-4"
             whileHover={basicHoverTapScale.hover}
             whileTap={basicHoverTapScale.tap}
             transition={{ duration: basicHoverTapScale.duration }}
@@ -46,8 +46,8 @@ export const NavBar = memo<Props>(({ routes }) => {
             <Logo color="white" />
           </motion.a>
         </Link>
-        <div className="flex h-12 items-center justify-center gap-3">
-          <nav className="z-0 flex h-full rounded-xl bg-jurrelightgray dark:bg-jurredarklight">
+        <div className="flex h-12 items-center justify-center gap-3 xs:ml-5">
+          <nav className="z-0 flex h-full rounded-xl bg-dplightgrey dark:bg-dpdarklight">
             {routes.map((route) => (
               <div
                 key={route.path}
@@ -61,7 +61,7 @@ export const NavBar = memo<Props>(({ routes }) => {
                 {pathname === route.path ||
                 (pathname.startsWith(route.path) && route.path !== '/') ? (
                   <motion.div
-                    className="absolute left-0 top-0 right-0 bottom-0 -z-10 m-auto h-[80%] w-[85%] rounded-lg bg-white dark:bg-jurredark"
+                    className="absolute left-0 top-0 right-0 bottom-0 -z-10 m-auto h-[80%] w-[85%] rounded-lg bg-white dark:bg-dpdark"
                     layoutId="active"
                     transition={{ type: 'spring', stiffness: 270, damping: 30 }}
                   />

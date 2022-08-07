@@ -33,10 +33,10 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
             }
           }}
           className={
-            'flex h-[14rem] w-[20rem] items-end justify-end rounded-[2rem] xs:h-[16rem] xs:w-[24rem] sm:h-[20rem] sm:w-[30rem] md:h-[21rem] md:w-[35rem] ' +
+            'flex h-[14rem] w-[20rem] items-end justify-end rounded-[2rem] xs:h-[16rem] xs:w-[22rem] sm:h-[20rem] sm:w-[30rem] md:h-[21rem] md:w-[35rem] ' +
             (project.mainImage
               ? 'bg-cover bg-no-repeat'
-              : 'bg-jurreoffwhite dark:bg-jurredarklight')
+              : 'bg-dpblack dark:bg-dpblack')
           }
           style={{
             backgroundImage: project.mainImage
@@ -58,9 +58,9 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
           
         </motion.div>
         {/* </Link> */}
-        <div className="flex-wrap xs:ml-4">
+        <div className="flex-wrap xs:pr-5">
           <motion.h2
-            className="mt-3 mb-2 w-fit bg-gradient-to-r from-black to-black bg-[length:0%_3px] bg-left-bottom bg-no-repeat font-freigeistwide text-[2.5rem] font-black tracking-[-0.07em] transition-all group-hover:bg-[length:100%_3px] group-focus:bg-[length:100%_3px] dark:from-white dark:to-white"
+            className="xs:pr-10 mt-3 mb-2 w-fit bg-gradient-to-r from-black to-black bg-[length:0%_3px] bg-left-bottom bg-no-repeat font-freigeistwide text-[2.5rem] font-black tracking-[-0.07em] transition-all group-hover:bg-[length:100%_3px] group-focus:bg-[length:100%_3px] dark:from-white dark:to-white"
             layoutId={`title-container-${project.slug}`}
           >
             <Link href= {"/projects/" + project.slug.current} key={project.slug.current}>
@@ -68,7 +68,7 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
             </Link>
           </motion.h2>
           <motion.p
-            className="text-md max-w-[18rem] text-jurregray dark:text-jurredarkgray xs:max-w-[24rem] sm:max-w-[28rem] sm:text-lg md:max-w-[30rem]"
+            className="text-md max-w-[18rem] text-dpgrey dark:text-dpdarkgrey xs:max-w-[24rem] sm:max-w-[28rem] sm:text-lg md:max-w-[30rem]"
             layoutId={`description-container-${project.slug}`}
           >
             {project.description}
@@ -81,7 +81,7 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
               return (
                 <p
                   key={project._id + '_' + stack._id}
-                  className="rounded-full bg-jurreoffwhite py-2 px-4 text-jurregray dark:bg-white dark:text-black"
+                  className="rounded-full bg-dpoffwhite py-2 px-4 text-dpgrey dark:bg-white dark:text-black"
                 >
                   {stack.name}
                 </p>

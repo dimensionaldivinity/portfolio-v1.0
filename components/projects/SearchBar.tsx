@@ -8,13 +8,13 @@ interface Props {
 const SearchBar: React.FC<Props> = (props) => {
   return (
     <div className="mt-6 flex items-center justify-center">
-      <div className="flex items-center justify-start gap-2 rounded-2xl border-2 border-jurrelightgray bg-white py-[0.6rem] px-5">
+      <div className="flex items-center justify-start gap-2 rounded-2xl border-2 border-dplightgrey bg-white py-[0.6rem] px-5">
         <MaskSvg
-          className="h-[1.2rem] w-[1.2rem] !bg-jurregray"
+          className="h-[1.2rem] w-[1.2rem] !bg-dpgrey"
           url="/img/icons/search.svg"
         />
         <input
-          className="bg-transparent font-euclid text-jurregray placeholder-jurregray outline-none placeholder:font-euclid"
+          className="bg-transparent font-euclid text-dpgrey placeholder-dpgrey outline-none placeholder:font-euclid"
           spellCheck={false}
           type="text"
           name="Search"

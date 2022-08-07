@@ -12,24 +12,28 @@ module.exports = {
         euclid: ['Euclid Circular B']
       },
       colors: {
-        jurreyellow: '#FFC400',
-        jurrelightyellow: '#FFC35E',
-        jurrelightpurple: '#DC98FF',
-        jurrelightblue: '#54BBFF',
-        jurredarkyellow: '#FFAD00',
-        jurredarkpurple: '#B729FF',
-        jurredarkblue: '#00A8FF',
-        jurrelightgray: '#F0F1F4',
-        jurregray: '#676767',
-        jurredarkgray: '#E2E2E2',
-        jurreoffwhite: '#F5F0F5',
-        jurredark: '#1C1C27',
-        jurredarklight: '#28293E',
-        jurredarklighter: '#42426A'
+        dpyellow: '#FFC400',
+        dplightyellow: '#FFC35E',
+        dplightpurple: '#DC98FF',
+        dplightblue: '#54BBFF',
+        dpdarkyellow: '#FFAD00',
+        dpdarkpurple: '#B729FF',
+        dpdarkblue: '#00A8FF',
+        dplightgrey: '#F0F1F4',
+        dpgrey: '#676767',
+        dpdarkgrey: '#E2E2E2',
+        dpoffwhite: '#F5F0F5',
+        // dpdark: '#1C1C27',
+        // dpdarklight: '#28293E',
+        dpdarklighter: '#42426A',
+        dpblack: '#1C1C1C',
+        dpdark: '#000000',
+        dpdarklight: '#1C1C1F'
+
       }
     },
     screens: {
-      xs: '420px',
+      xs: '370px',
       sm: '640px',
       md: '768px',
       mdlg: '896px',

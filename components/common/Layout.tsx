@@ -10,7 +10,7 @@ type Props = {
 export const Layout = memo<Props>(({ children }) => {
   return (
     <>
-      <div className="relative h-full w-full overflow-hidden bg-white transition-colors duration-300 dark:bg-jurredark">
+      <div className="relative h-full w-full overflow-hidden bg-white transition-colors duration-300 dark:bg-dpdark">
         <header>
           <NavBar routes={routes} />
         </header>

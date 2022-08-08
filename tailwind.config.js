@@ -42,5 +42,7 @@ module.exports = {
       '2xl': '1536px'
     }
   },
+
+  bgimage2 : {url: '/img/makeroom/makeroom2.png'},
   plugins: []
 }

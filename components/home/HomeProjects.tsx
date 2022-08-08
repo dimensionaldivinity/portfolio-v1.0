@@ -22,7 +22,7 @@ const HomeProjects: React.FC = () => {
         <h2 className="mt-4 whitespace-nowrap font-euclid text-lg tracking-wide text-black dark:text-white sm:text-[1.75rem]">
           Since time is so precious,
         </h2><h2 className="mt-4 whitespace-nowrap font-euclid text-lg tracking-wide text-black dark:text-white sm:text-[1.75rem]">
-          here is a curated list of things i have worked on
+          here is a curated list of things i have worked on -&gt;
         </h2>
         <Link href="/projects" passHref>
           <a className="mb-16 mt-6 flex items-center justify-center gap-3 rounded-2xl bg-dpyellow py-3 px-7 dark:bg-dpdarkyellow">

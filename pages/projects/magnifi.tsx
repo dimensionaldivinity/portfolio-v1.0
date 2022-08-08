@@ -1,13 +1,12 @@
 import type { NextPage } from 'next'
-import { Layout } from '../components/common/Layout'
-import PageHero from '../components/common/PageHero'
-import { SEO } from '../components/common/SEO'
+import { Layout } from '../../components/common/Layout'
+import PageHero from '../../components/common/PageHero'
+import { SEO } from '../../components/common/SEO'
 import Image from 'next/image'
-import MaskSvg from '../components/common/MaskSvg'
-import AnimatedLink from '../components/common/AnimatedLink'
+import AnimatedLink from '../../components/common/AnimatedLink'
 
-const nyp: NextPage = () => {
-  const title = 'nyp'
+const magnifi: NextPage = () => {
+  const title = 'Magnifi . ai'
   
 
   return (
@@ -18,18 +17,17 @@ const nyp: NextPage = () => {
         // imageUrl={'/img/about.png'}
       />
       <PageHero title={title}>
-        
+        This was  website deign for leafworks
+        <br />
+        You&rsquo;re in the right place! 😎
       </PageHero>
-    
 
+      {/* new layout starts here */}
 
-    <div>
+      <div>
       <div className="mt-10 overflow-hidden">
       <div className="flex flex-col items-center gap-5">
-        <h1 className="w-full text-center text-5xl tracking-widest">
-          We are <br className="md:hidden" />
-          creatives
-        </h1>
+        
         <svg xmlns="http://www.w3.org/2000/svg  relative z-20" className="h-10 w-10 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
         </svg>
@@ -51,7 +49,7 @@ const nyp: NextPage = () => {
     </article>
   </div>
   <div className="bg-phone min-h-[450px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
-    <img src="/img/makeroom/makeroomhome.png"/>
+    <img src="/img/magnifi/magnifi1.png"/>
   </div>
 </section>
 
@@ -68,7 +66,7 @@ videographers, and copywriters, we`ll build and extend your brand in digital pla
   </div>
   <div className="bg-glass min-h-[450px] flex-1 bg-yellow-400 bg-center bg-cover bg-no-repeat">
   <div className="bg-phone min-h-[450px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
-    <img src="/img/makeroom/makeroom2.png"/>
+    <img src="/img/magnifi/magnifi2.png"/>
   </div>
   </div>
 </section>
@@ -82,7 +80,7 @@ videographers, and copywriters, we`ll build and extend your brand in digital pla
     </article>
   </div>
   <div className="bg-phone min-h-[450px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
-    <img src="/img/makeroom/makeroom3.png"/>
+    <img src="/img/magnifi/magnifi3.png"/>
   </div>
 </section>
 
@@ -99,7 +97,7 @@ videographers, and copywriters, we`ll build and extend your brand in digital pla
   </div>
   <div className="bg-glass min-h-[450px] flex-1 bg-yellow-400 bg-center bg-cover bg-no-repeat">
   <div className="bg-phone min-h-[450px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
-    <img src="/img/makeroom/makeroom4.png"/>
+    <img src="/img/magnifi/magnifi4.png"/>
   </div>
   </div>
 </section>
@@ -125,28 +123,7 @@ videographers, and copywriters, we`ll build and extend your brand in digital pla
 <section className="m-auto w-10/12 py-36">
   <h1 className="text-3xl text-black/30 font-bold text-center mb-16">Client testimonials</h1>
   <div className="flex flex-col justify-between md:flex-row gap-12">
-    <article className="flex flex-col items-center gap-3 text-center px-2 py-4">
-      <div className=" h-24 w-24 overflow-hidden rounded-full outline-dotted outline-4 outline-offset-2 outline-sky-800">
-        <img  className="w-full object-cover h-full" src="/img/makeroom/makeroom2.png"/>
-      </div>
-      <p className="text-base font-bold text-black/60 mt-9">We put our trus in sunnyside and they delivered, making sure our needs were met dedlines were alwas hit</p>
-      <span className="text-2xl mt-11 font-bold text-black/80">Emily R.</span>
-    </article>
-  
-      <article className="flex flex-col items-center gap-3 text-center px-2 py-4">
-      <div className=" h-24 w-24 overflow-hidden rounded-full outline-dotted outline-4 outline-offset-2 outline-sky-800">
-        <img  className="w-full object-cover h-full" src="/img/makeroom/makeroom3.png"/>
-      </div>
-      <p className="text-base font-bold text-black/60 mt-9">We put our trus in sunnyside and they delivered, making sure our needs were met dedlines were alwas hit</p>
-      <span className="text-2xl mt-11 font-bold text-black/80">Emily R.</span>
-    </article>
-        <article className="flex flex-col items-center gap-3 text-center px-2 py-4">
-      <div className=" h-24 w-24 overflow-hidden rounded-full outline-dotted outline-4 outline-offset-2 outline-sky-800">
-        <img  className="w-full object-cover h-full" src="/img/makeroom/makeroom4.png"/>
-      </div>
-      <p className="text-base font-bold text-black/60 mt-9">We put our trus in sunnyside and they delivered, making sure our needs were met dedlines were alwas hit</p>
-      <span className="text-2xl mt-11 font-bold text-black/80">Emily R.</span>
-    </article>
+    
 
   </div>
 </section>
@@ -168,11 +145,16 @@ videographers, and copywriters, we`ll build and extend your brand in digital pla
  
 
 </section>
-      
+
+     
+
+      {/* new layout ends here  */}
+
+
     </Layout>
   )
 }
 
 
 
-export default nyp
+export default magnifi

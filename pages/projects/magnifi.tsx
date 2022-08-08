@@ -25,7 +25,7 @@ const magnifi: NextPage = () => {
       {/* new layout starts here */}
 
       <div>
-      <div className="mt-10 overflow-hidden">
+      <div className="mt-0 overflow-hidden">
       <div className="flex flex-col items-center gap-5">
         
         <svg xmlns="http://www.w3.org/2000/svg  relative z-20" className="h-10 w-10 animate-bounce" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -34,8 +34,8 @@ const magnifi: NextPage = () => {
       </div>
     </div>
 
-    <div className="relative z-10 flex w-full justify-center rounded-full bg-orange-600 outline-dotted outline-4 outline-offset-4 md:translate-y-20 md:bg-transparent md:outline-none">
-      <img className="" src="https://pics.clipartpng.com/Orange_Slice_PNG_Clipart-236.png" />
+    <div className="relative z-10 flex w-full justify-center md:translate-y-20 md:bg-transparent md:outline-none">
+      <img className="" src="/img/magnifi/magnifihero.png" />
     </div>
   </div>
 
@@ -48,7 +48,7 @@ const magnifi: NextPage = () => {
       <button className="mt-3 border-b border-b-8 border-dotted border-b-yellow-400 py-2 text-xl  ">Find more</button>
     </article>
   </div>
-  <div className="bg-phone min-h-[450px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
+  <div className="bg-phone min-h-[250px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
     <img src="/img/magnifi/magnifi1.png"/>
   </div>
 </section>
@@ -64,14 +64,14 @@ videographers, and copywriters, we`ll build and extend your brand in digital pla
     </article>
     
   </div>
-  <div className="bg-glass min-h-[450px] flex-1 bg-yellow-400 bg-center bg-cover bg-no-repeat">
-  <div className="bg-phone min-h-[450px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
+  <div className="bg-glass min-h-[250px] flex-1 bg-yellow-400 bg-center bg-cover bg-no-repeat">
+  <div className="bg-phone min-h-[250px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
     <img src="/img/magnifi/magnifi2.png"/>
   </div>
   </div>
 </section>
 
-<section className="flex min-h-[450px]  flex-col-reverse md:flex-row">
+<section className="flex min-h-[250px]  flex-col-reverse md:flex-row">
   <div className="flex flex-1 items-center justify-center">
     <article className="max-w-md p-3 py-24 px-3 text-center md:text-left">
       <h1 className="mb-8 text-3xl font-bold leading-8">Transform your brand</h1>
@@ -79,12 +79,12 @@ videographers, and copywriters, we`ll build and extend your brand in digital pla
       <button className="mt-3 border-b border-b-8 border-dotted border-b-yellow-400 py-2 text-xl  ">Find more</button>
     </article>
   </div>
-  <div className="bg-phone min-h-[450px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
+  <div className="bg-phone min-h-[250px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
     <img src="/img/magnifi/magnifi3.png"/>
   </div>
 </section>
 
-<section className="flex min-h-[450px] flex-col-reverse md:flex-row-reverse">
+<section className="flex min-h-[250px] flex-col-reverse md:flex-row-reverse">
   <div className="flex flex-1 items-center justify-center">
     <article className="max-w-md py-24 px-3 text-center md:text-left">
       
@@ -95,8 +95,8 @@ videographers, and copywriters, we`ll build and extend your brand in digital pla
     </article>
     
   </div>
-  <div className="bg-glass min-h-[450px] flex-1 bg-yellow-400 bg-center bg-cover bg-no-repeat">
-  <div className="bg-phone min-h-[450px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
+  <div className="bg-glass min-h-[250px] flex-1 bg-yellow-400 bg-center bg-cover bg-no-repeat">
+  <div className="bg-phone min-h-[250px] flex-1 bg-yellow-400 bg-cover bg-center bg-no-repeat">
     <img src="/img/magnifi/magnifi4.png"/>
   </div>
   </div>

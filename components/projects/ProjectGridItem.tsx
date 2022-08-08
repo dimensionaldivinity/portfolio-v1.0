@@ -14,6 +14,7 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
   
   return (
     <AnimateSharedLayout>
+      <Link href= {"/projects/" + project.slug.current} key={project.slug.current}>
       <motion.div
         className="group flex cursor-pointer flex-col items-center justify-start pt-[1rem] md:items-start"
         whileHover="hover"
@@ -22,7 +23,7 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
         
         layout
       >   
-        {/* <Link href = '/'> */}
+        
         <motion.div
           variants={{
             hover: {
@@ -45,7 +46,7 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
           }}
           layoutId={`thumbnail-container-${project.slug}`}
           key={`thumbnail-container-${project.slug}`}
-          onClick={()=> <Link href = '/makemyroom' ></Link>}
+          
         >
           
           <div className="m-5 rounded-full bg-white p-4">
@@ -57,7 +58,8 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
           </div>
           
         </motion.div>
-        {/* </Link> */}
+        
+        
         <div className="flex-wrap xs:pr-5">
           <motion.h2
             className="xs:pr-10 mt-3 mb-2 w-fit bg-gradient-to-r from-black to-black bg-[length:0%_3px] bg-left-bottom bg-no-repeat font-freigeistwide text-[2.5rem] font-black tracking-[-0.07em] transition-all group-hover:bg-[length:100%_3px] group-focus:bg-[length:100%_3px] dark:from-white dark:to-white"
@@ -91,6 +93,7 @@ const ProjectGridItem: React.FC<Props> = ({ project }) => {
           
         </div>
       </motion.div>
+      </Link>
     </AnimateSharedLayout>
   )
 }

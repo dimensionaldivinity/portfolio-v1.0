@@ -149,6 +149,7 @@ export const SEO = memo<Props>(
           />
           <link
             rel="icon"
+            rel="icon"
             type="image/png"
             sizes="96x96"
             href="/favicon-96x96.png"

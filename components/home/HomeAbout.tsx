@@ -20,7 +20,7 @@ const HomeAbout: React.FC = () => {
           layout="fill"
           draggable={false}
           quality={100}
-          alt="Memoji character of Jurre de Ruiter smiling."
+          alt="Memoji character of Prasad smiling."
         />
       </div>
     </section>

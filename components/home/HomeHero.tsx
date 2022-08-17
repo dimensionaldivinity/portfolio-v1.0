@@ -116,7 +116,7 @@ const HomeHero: React.FC = () => {
         className="absolute -bottom-[18%] sm:-left-[16%] sm:h-[90%] sm:w-[40rem] md:-left-[4%] lg:-bottom-[18%] lg:left-[4%] xl:left-[8%] xl:h-full xl:w-[46rem] 2xl:left-[10%]"
       >
         <Image
-          src="/img/avatars/untitled.png"
+          src="/img/avatars/hand2.png"
           layout="fill"
           objectFit="contain"
           quality={100}

@@ -22,7 +22,7 @@ const MakeMyRoom: NextPage = () => {
         You&rsquo;re in the right place! 😎
       </PageHero>
 
-      {/* new layout starts here */}
+      {/* new layout starts here AND THIS THE EXTRA LAYOUT MADE FOR MOBILE SCREENS ---------------------- */}
 
       <section>ask me about me
         <h1>project</h1>

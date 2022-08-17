@@ -14,7 +14,6 @@ const magnifi: NextPage = () => {
       <SEO
         title={title}
         
-        // imageUrl={'/img/about.png'}
       />
       <PageHero title={title}>
         This was  website deign for leafworks

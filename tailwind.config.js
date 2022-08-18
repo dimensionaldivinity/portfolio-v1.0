@@ -9,7 +9,8 @@ module.exports = {
       fontFamily: {
         freigeist: ['Freigeist'],
         freigeistwide: ['Freigeist Wide'],
-        euclid: ['Euclid Circular B']
+        euclid: ['Euclid Circular B'],
+        freigeistlight: ['Freigeist Light']
       },
       colors: {
         dpyellow: '#FFC400',

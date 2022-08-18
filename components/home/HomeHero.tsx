@@ -69,10 +69,12 @@ const HomeHero: React.FC = () => {
         </div>
         <div className="z-10 mt-4 border-l-[0.4rem] border-l-dpyellow pl-4 text-3xl font-light leading-[1.3] xs:pl-2">
           <p className="whitespace-nowrap xs:pl-0">
-            <span className="font-medium xs:pl-0">Hi!</span>, I&rsquo;m Durga Prasad!
+            <span className="font-medium xs:pl-0"></span>You can call me Prasad
           </p>
           <div className="flex items-center justify-center gap-2">
-            <p className="whitespace-nowrap xs:text-[1.5rem]">I code stuff. 🤓</p>
+            <p className="whitespace-nowrap xs:text-[1.5rem]">And I make things for the web 🤓</p>
+              
+            
             <div
               className="flex w-fit cursor-pointer items-center justify-start gap-2 border-b-[3px] border-b-black pr-1 dark:border-b-white"
               onClick={() =>
@@ -84,7 +86,7 @@ const HomeHero: React.FC = () => {
               }
             >
               <p className="whitespace-nowrap text-[1.5rem] font-medium tracking-wide">
-                Learn more
+                
               </p>
               <MaskSvg
                 className="h-[0.8rem] w-[0.8rem] rotate-90 dark:!bg-white"
@@ -116,7 +118,7 @@ const HomeHero: React.FC = () => {
         className="absolute -bottom-[18%] sm:-left-[16%] sm:h-[90%] sm:w-[40rem] md:-left-[4%] lg:-bottom-[18%] lg:left-[4%] xl:left-[8%] xl:h-full xl:w-[46rem] 2xl:left-[10%]"
       >
         <Image
-          src="/img/avatars/hand2.png"
+          src="/img/avatars/hey-prasad.png"
           layout="fill"
           objectFit="contain"
           quality={100}

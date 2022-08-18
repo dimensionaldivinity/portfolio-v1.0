@@ -34,13 +34,52 @@ const HomeProjects: React.FC = () => {
             />
           </a>
         </Link>
-        <div className="h-[60rem] w-full px-6 sm:px-12 mdlg:px-16 lg:px-32 xl:px-40 2xl:px-48 ">
+        <div className="h-[30rem] w-full px-6 sm:px-12 mdlg:px-16 lg:px-32 xl:px-40 2xl:px-48 ">
           <div className="h-full w-full rounded-[5rem] bg-dpoffwhite dark:bg-dpdarklight xs:pb-20">
             <span className="mb-16 mt-2 flex items-center justify-center gap-3 rounded-2xl">
             <h1>
               Tech stack i use goes here
             </h1>
             </span>
+            <div className='flex flex-col items-center'>
+              <h2>This website was built using </h2>
+              
+            </div>
+            <div className='flex flex-col items-center'>
+            <div className='mt-5 flex items-center justify-center gap-5'>
+              <p>Next Js</p>
+              
+              <p>Sanity.io</p>
+               
+              <p>Tailwind CSS</p>
+
+              <p>Typescript</p>
+               
+            </div>
+            </div>
+            <div className='mt-5 flex items-center justify-center gap-14'>
+              
+              <MaskSvg
+                className="h-10 w-10 cursor-alias dark:!bg-white"
+                url="/img/icons/next-js.svg"
+              />
+              
+              <MaskSvg
+                className="h-10 w-10 cursor-alias dark:!bg-white"
+                url="/img/icons/sanity.svg"
+              />
+              
+               <MaskSvg
+                className="h-10 w-10 cursor-alias dark:!bg-white"
+                url="/img/icons/tailwind-css.svg"
+              />
+
+              <MaskSvg
+                className="h-10 w-10 cursor-alias dark:!bg-white"
+                url="/img/icons/typescript1.svg"
+              />
+            </div>
+            
 
           </div>
         </div>

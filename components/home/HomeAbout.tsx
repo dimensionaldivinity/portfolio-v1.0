@@ -17,8 +17,8 @@ const HomeAbout: React.FC = () => {
       <div className='mb-10 flex flex-col items-center justify-content text-inline-block' >
       <h3 className="whitespace-nowrap font-euclid text-[1.5rem] tracking-wide items-center justify-content">
           <span className="font-medium xs:text-[2rem]"></span>I&rsquo;m Durga Prasad Pattabhi!, a developer specializing in
-          <br></br>  building (with a keen interest in designing) exceptional
-          <br></br>  digital experiences that live on the internet.
+          <br></br>  building exceptional digital experiences that live on the
+          <br></br>  Internet. (with a keen interest on design)
         </h3>
       </div>
       <div className="relative h-[25rem] w-[25rem]">

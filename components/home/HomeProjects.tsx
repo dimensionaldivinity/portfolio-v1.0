@@ -37,9 +37,7 @@ const HomeProjects: React.FC = () => {
         <div className="h-[30rem] w-full px-6 sm:px-12 mdlg:px-16 lg:px-32 xl:px-40 2xl:px-48 ">
           <div className="h-full w-full rounded-[5rem] bg-dpoffwhite dark:bg-dpdarklight xs:pb-20">
             <span className="mb-16 mt-2 flex items-center justify-center gap-3 rounded-2xl">
-            <h1>
-              Tech stack i use goes here
-            </h1>
+            
             </span>
 
             {/* NEW DIV EXPERIMENT STARTS */}

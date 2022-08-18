@@ -52,37 +52,7 @@ const HomeContact: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className="flex w-fit gap-5">
-            <ShadowButton href="https://www.instagram.com/murderthesun/">
-              <Image
-                src="/img/icons/instagram-fill.svg"
-                layout="fill"
-                draggable={false}
-                alt="Instagram logo icon with brand color gradient."
-              />
-            </ShadowButton>
-            <ShadowButton href="https://twitter.com/bauhausfaust">
-              <MaskSvg
-                className="h-full w-full"
-                url="/img/icons/twitter.svg"
-                color="#00C2FE"
-              />
-            </ShadowButton>
-            <ShadowButton href="https://discordapp.com/channels/@me">
-              <MaskSvg
-                className="h-[95%] w-[95%]"
-                url="/img/icons/discord.svg"
-                color="#5765F2"
-              />
-            </ShadowButton>
-            <ShadowButton href="https://www.linkedin.com/in/someprofile-122333/">
-              <MaskSvg
-                className="h-[90%] w-[90%]"
-                url="/img/icons/linkedin.svg"
-                color="#4EA3FF"
-              />
-            </ShadowButton>
-          </div>
+          
         </div>
       </section>
     </div>

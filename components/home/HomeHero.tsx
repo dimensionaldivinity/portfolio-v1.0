@@ -67,15 +67,15 @@ const HomeHero: React.FC = () => {
             </svg>
           </svg>
         </div>
-        <div className="z-10 mt-4 border-l-[0.4rem] border-l-dpyellow pl-4 text-3xl font-light leading-[1.3] xs:pl-2">
-          <p className="whitespace-nowrap xs:pl-0">
+        <div className="z-10 mt-4 border-l-[0.4rem] border-l-dpyellow pl-4 text-2xl font-light leading-[1.3]">
+          <p className="whitespace-normal xs:pl-0">
             <span className="font-medium xs:pl-0"></span>You can call me Prasad
           </p>
-          <div className="flex items-center justify-center gap-2">
-            <p className="whitespace-nowrap xs:text-[1.5rem]">And I make things for the web 🤓</p>
+          <div className="flex items-center justify-center gap-2 items-end max-w-xs w-full lg:max-w-full lg:flex text-justify">
+            <p className="whitespace-normal">And I make things for the web 🤓</p>
               
             
-            <div
+            {/* <div
               className="flex w-fit cursor-pointer items-center justify-start gap-2 border-b-[3px] border-b-black pr-1 dark:border-b-white"
               onClick={() =>
                 scroller.scrollTo('about-scroller', {
@@ -93,7 +93,7 @@ const HomeHero: React.FC = () => {
                 url="/img/icons/arrow-tr.svg"
                 color="black"
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

@@ -6,6 +6,8 @@ import Image from 'next/image'
 import MaskSvg from '../components/common/MaskSvg'
 import AnimatedLink from '../components/common/AnimatedLink'
 
+
+
 const contact: NextPage = () => {
   const title = 'Lets talk'
 
@@ -16,7 +18,9 @@ const contact: NextPage = () => {
 
         // imageUrl={'/img/about.png'}
       />
-      <PageHero title={title}></PageHero>
+      <PageHero title={title}>
+        <span>Hey</span>
+      </PageHero>
 
       <div className="mb-10 items-center xs:ml-12 xs:pl-1">
         <div className="w-72 rounded-xl bg-white shadow-md duration-500 hover:scale-105 hover:shadow-xl md:hidden">

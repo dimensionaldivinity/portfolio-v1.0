@@ -19,7 +19,7 @@ const HomeAbout: React.FC = () => {
 
         <div className="mt-10 overflow-hidden">
           <div className="flex max-w-[50rem] flex-col items-center gap-5">
-            <p className="p-3 w-full text-center text-2xl tracking-widest">
+            <p className="p-10 w-full text-center text-2xl tracking-widest">
               I am Durga Prasad, <br className="md:hidden" />
               a developer enthusiastic in building exceptional digital experiences that live on the Internet. (with a keen interest on design).
             </p>

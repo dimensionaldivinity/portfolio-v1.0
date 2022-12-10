@@ -10,11 +10,13 @@ import AnimatedLink from '../components/common/AnimatedLink'
 
 const contact: NextPage = () => {
   const title = 'Lets talk'
+  const description = 'Want to know more about Durga Prasad? Get to know me!'
 
   return (
     <Layout>
       <SEO
         title={title}
+        description={description}
 
         // imageUrl={'/img/about.png'}
       />

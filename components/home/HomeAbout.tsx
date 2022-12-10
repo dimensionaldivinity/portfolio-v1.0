@@ -17,7 +17,7 @@ const HomeAbout: React.FC = () => {
 
       {/* ABOUT SECTION COPY STARTS */}
 
-        <div className="p-10 mt-10 overflow-hidden">
+        <div className="p-10 mt-10 overflow-auto">
           <div className="flex max-w-[50rem] flex-col items-center gap-5">
             <p className="p-10 w-contain text-center text-2xl tracking-widest">
               <span>
